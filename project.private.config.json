@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/upload/upload",
+          "pathName": "pages/upload/upload",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

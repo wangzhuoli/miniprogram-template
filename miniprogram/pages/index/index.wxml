@@ -1,0 +1,8 @@
+<!-- index.wxml -->
+<view class="container">
+  <van-button type="primary" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+    微信登录
+  </van-button>
+  <van-button bind:click="onClick">默认按钮</van-button>
+  <view class="a">aaaaa</view>
+</view>

@@ -1,0 +1,15 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+
+  box-sizing: border-box;
+  --button-border-radius: 10px;
+  --button-default-color: #1da57a;
+  --toast-max-width: 100px;
+  --button-primary-color: blue;
+}
+
+.van-button--primary {
+  font-size: 20px;
+  background-color: pink;
+}

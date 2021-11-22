@@ -1,0 +1,6 @@
+<!-- pages/login/login.wxml -->
+<view class="container">
+  <van-button type="primary" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+    授权登录
+  </van-button>
+</view>

@@ -1,0 +1,10 @@
+<!-- upload.wxml 图片上传组件使用案例 -->
+读取文件后直接上传
+<view class="container">
+  <upload-img file-list="{{ fileList }}" max-count="{{ 3 }}" bindchange="onImagChange" bindonLodingChange="onLodingChange"></upload-img>
+</view>
+点击上传按钮后上传
+<view class="container">
+  <upload-img file-list="{{ fileList }}" max-count="{{ 3 }}" bindchange="onImagChange" bindonLodingChange="onLodingChange" at-once="{{false}}" id="upload"></upload-img>
+</view>
+<van-button type="primary" bindtap="onUpload">开始上传</van-button>
