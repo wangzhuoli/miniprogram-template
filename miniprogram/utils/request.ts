@@ -1,6 +1,6 @@
 import { baseUrl } from '../config/config'
 import { getToken } from '../storage/token'
-import pendingRequest from './PendingRequest'
+import pendingRequest from './pendingRequest'
 /**
  * 公共请求
  */
